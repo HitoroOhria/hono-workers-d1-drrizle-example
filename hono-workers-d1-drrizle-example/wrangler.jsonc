@@ -2,5 +2,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hono-workers-d1-drrizle-example",
   "compatibility_date": "2025-08-03",
-  "main": "./src/index.tsx"
+  "main": "./src/index.tsx",
+  "d1_databases": [
+    {
+      "binding": "exampleDB",
+      "database_name": "hono-workers-d1-drrizle-example-example",
+      "database_id": "99f28c31-87db-46a7-8dff-bcdaaece545b"
+    }
+  ]
 }
