@@ -7,7 +7,8 @@
     {
       "binding": "exampleDB",
       "database_name": "hono-workers-d1-drrizle-example-example",
-      "database_id": "99f28c31-87db-46a7-8dff-bcdaaece545b"
+      "database_id": "99f28c31-87db-46a7-8dff-bcdaaece545b",
+      "migrations_dir": "drizzle"
     }
   ]
 }
